@@ -1,3 +1,4 @@
+#!bin/bash
 currentFolder=$(realpath .)
 read -p "Entrez un nom pour le dossier: " projectName
 pnamePath="${currentFolder}/${projectName}"

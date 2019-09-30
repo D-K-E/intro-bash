@@ -1,5 +1,5 @@
 ##############################
-Alias et Débogué des scriptes
+Alias et Déboguer des scriptes
 ##############################
 
 Alias
