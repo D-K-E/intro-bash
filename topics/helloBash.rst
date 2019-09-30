@@ -2,12 +2,12 @@
 Hello Bash
 ###########
 
-Bash, plutôt Borne Again Shell, est notre principal atout pour communiquer avec
-différents parties d'OS. Il est là pour qu'on puisse gérer l'OS dans des cas
-des besoins spécifiques. Attention c'est une outil de gestion, c'est à dire au
-moment vos besoins dépassent à la gestion des taches, execution des taches
-répétitives, il faut penser à d'utiliser des autres langues mieux adaptées
-pour construire des choses. 
+Bash, plutôt Borne Again Shell, est notre principal atout pour communiquer
+avec différents parties d'OS. Il est là pour qu'on puisse gérer l'OS dans des
+cas des besoins spécifiques. On va l'utiliser comme une outil de gestion,
+c'est à dire au moment vos besoins dépassent la gestion des taches,
+execution des taches répétitives, etc, il faut penser à d'utiliser des autres
+langues mieux adaptées pour construire des choses. 
 
 
 Ayant dit tout cela ouvrons un terminal pour faire nos premières pas dans le
@@ -97,3 +97,23 @@ Notez que je pouvais bien écrire le même programme comme le suivant:
 
 Dans ce cas on aura le même nombre d'expression, mais plusieurs opérations
 et instructions.
+
+Conditions
+-----------
+
+Les conditions dans le bash est fait comme le suivant:
+
+.. code:: bash
+
+    #!bin/bash
+
+    read -p "entrez votre age: " age
+
+    if test ${age} -gt 18; then
+        echo "Vous êtes adultes"
+    else
+        echo "Vous êtes mineurs"
+    fi
+
+Le syntax est donc :code:`if`, plus expression de teste suivit par :code:`;`
+pour montrer que l'expression est bien fini et qu'on passe à d'autre chose.
