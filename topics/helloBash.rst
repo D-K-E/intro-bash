@@ -110,7 +110,7 @@ Les conditions dans le bash est fait comme le suivant:
     read -p "entrez votre age: " age
     declare -i age=${age}
 
-    if test ${age} -gt 18; then
+    if test ${age} -lt 18; then
         echo "Vous êtes adultes"
     else
         echo "Vous êtes mineurs"
